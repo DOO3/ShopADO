@@ -23,6 +23,7 @@ namespace ShopADO
             dgvCategories.Columns[0].Visible = false;
             dgvManufacturers.DataSource = context.Manufacturer.Local.ToBindingList();
             dgvGoods.DataSource = context.Good.Local.ToBindingList();
+            MessageBox.Show("JayTest");
         }
 
         private void bSave_Click(object sender, System.EventArgs e)
